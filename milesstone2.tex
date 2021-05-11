@@ -1,0 +1,98 @@
+\documentclass[conference]{IEEEtran}
+\IEEEoverridecommandlockouts
+% The preceding line is only needed to identify funding in the first footnote. If that is unneeded, please comment it out.
+\usepackage{apacite}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
+    T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
+\begin{document}
+
+\title{FlexRay Communication Protocol\\
+}
+
+\author{\IEEEauthorblockN{1\textsuperscript{st} Oguz Kaan Tuna}
+\IEEEauthorblockA{\textit{Hochschule Hamm-Lippstadt} \\
+\textit{Electronic Engineering}\\
+4th Semester \\
+oguz-kaan.tuna@stud.hshl.de}
+\and
+\IEEEauthorblockN{2\textsuperscript{nd} Kristina Bala}
+\IEEEauthorblockA{\textit{Hochschule Hamm-Lippstadt} \\
+\textit{Electronic Engineering}\\
+4th Semester \\
+kristina.bala@stud.hshl.de}
+
+}
+
+\maketitle
+
+\begin{abstract}
+In 1999, some companies realized that the future requirements cannot be realized with current existing protocols. Therefore they , BMW, Daimler Chrysler, Motorola and Philips, started to cooperate and founded the FlexRay Consortium in 2000 [1]. FlexRay Protocol is a deterministic and fault tolerant communication protocol designed to deliver high data rates and it is intended to be used in automative industry, especially for controling the automative ECU's (Electronic Control Unit). It operates on a time cycle, split in static and dynamic segments, for event-triggered and time-triggered communications [2].
+\end{abstract}
+
+\begin{IEEEkeywords}
+
+\end{IEEEkeywords}
+
+\section{Introduction}
+The increasing interaction between the electronic components, which takes more and more the place of mechanical elements, and the electronic systems, demands a complex automative system. Therefore present day vehicles are becoming not just cars but highly complicated distributed real-time systems. Naturally such a system would need a communication stream between its modules, in order to have a stable structure and organization in fields such as safety, reliability or comfort [3].
+
+CAN (Controller Area Network), mainly recognized as the standard communication technology in the automative field, is becoming slowly unable to overcome the challenges of advancing requirements in previously mentioned areas. One of the main reason for this outcome is that CAN is only able to deliver a maximum data rate of 1Mbit/s, alongside as a result of its lack of redundent structure and mechanism, CAN cannot meet the needed requirements for fault tolerancy [4].
+
+Because of the mentioned reasons, BMW and Daimler Chrysler decided to work together in the beginning of this millennia for developing a new communication technology, which should be able to solve these complications, called FlexRay. In the last two decades FlexRay Consortium grew in numbers for its key partners,Premium Associate Members and Associate Members [5]. This paper will highlight the concept of FlexRay, alogside the advantage and disadvantages of the use of FlexRay. In parallel to named topics, the history of FlexRay and comparisons of FlexRay with other communication technologies will also be portrayed.
+
+
+\section{History of FlexRay}
+
+\section{FlexRay}
+
+\section{Charachteristics of FlexRay}
+
+
+\subsection{Applications}
+
+
+\subsection{FlexRay Advantages}
+
+\subsection{Network Topology}
+
+\section{Communication Architecture}
+
+\subsection{Communication Controller}
+
+\section{Communucation Channel}
+
+
+\subsection{Static Segment}
+
+\subsection{Dynamic Segment}
+
+\section{Differences Between Protocols}
+
+\section*{Acknowledgment}
+
+\section{First References}
+[1]\cite{reichart2005flexray}
+
+[2]\cite{vaz2020efficient}.
+
+[3]\cite{steinbach2010comparing}.
+
+[4]\cite{makowitz2006flexray}.
+
+[5]\cite{enosh2014efficient}.
+
+[6]\cite{kopetz2001comparison}
+
+[7]\cite{shaw2008introduction}
+
+[8]\cite{rausch2007flexray}
+
+[8]\cite{xu2008implementation}
+\bibliographystyle{apacite}
+\bibliography{references}
+\end{document}
